@@ -1,0 +1,26 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import heroImg from './assets/hero.png'
+import './App.css'
+import Card from './comp/card'
+
+
+
+function App() {
+  let myobj ={
+    username:"hitesh",
+    age:21
+  }
+  let newArr = [1,2,3,4]
+
+  return (
+    <>
+   <h1 className='bg-green-400 text-black p-4 rounded-xl'>Tailwind Text</h1> 
+     <Card username="Ambadas aur code" btnText="Click Me Ambadas!"/>
+     <Card username="Chai aur code" />
+    </>
+  )
+}
+
+export default App
